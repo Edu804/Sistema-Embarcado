@@ -75,3 +75,6 @@ Para facilitar o entendimento e implementação do projeto, consulte os arquivos
 - [BME280 Sensor](BME280%20Sensor.pdf): Guia para o sensor de pressão, umidade e temperatura BME280.
 
 ---
+![Diagrama-Controle](https://github.com/user-attachments/assets/62e59859-df30-46b5-98f7-e61c4e3deaf5)
+![eletrica-sensores](https://github.com/user-attachments/assets/1c893533-5b0e-4878-96ec-fe9573768507)
+![diagrama-eletrico](https://github.com/user-attachments/assets/185ea473-0847-44f3-9b5b-1522a99d31e8)
