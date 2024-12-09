@@ -74,6 +74,5 @@ Para facilitar o entendimento e implementação do projeto, consulte os arquivos
 - [K33 Sensor](K33%20Sensor.pdf): Guia para o sensor de CO₂ K33.
 - [BME280 Sensor](BME280%20Sensor.pdf): Guia para o sensor de pressão, umidade e temperatura BME280.
 - [PCF8574](PCF8574.md): Guia para o Expansor de portas I²C PCF8574.
-
-
+- [https://github.com/OtavioMoratelli/Ubiquos/tree/main](URL): Guia para como utilizar o Grafana.
 
