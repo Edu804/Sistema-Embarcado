@@ -38,16 +38,16 @@ Em seguida, abra o terminal e execute os seguintes comandos:
 ```bash
 sudo apt update
 sudo apt install python3-pip
-´´´
+```
 
 **Instale a biblioteca do ADS1115:**
 ```bash
 pip3 install adafruit-circuitpython-ads1x15
-´´´
+```
 
 ## Exemplo de código
 O código abaixo demonstra como configurar o **ADS1115** e ler os valores do sensor **AO2** em Python:
-´´´python
+```python
 import busio
 import board
 import adafruit_ads1x15.ads1115 as ADS
@@ -69,7 +69,7 @@ chan = AnalogIn(ads, ADS.P0)
 def le_sensor_o2():
     valor_O2 = (0.0167 * chan.value)
     return valor_O2
-´´´
+```
 Quando a função le_sensor_o2() for chamada, ela retornará o valor do sensor de oxigênio em porcentagem.
 
 # Calibração e Compensação
