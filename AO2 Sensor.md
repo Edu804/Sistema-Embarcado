@@ -5,6 +5,7 @@ O sensor de oxigênio **Citicel AO2** é um exemplo de sensor eletroquímico amp
 Por ser eletroquímico, o AO2 possui uma vida útil limitada a aproximadamente **2 anos** em condições normais de ar fresco. Seu tempo de resposta para atingir até 90% de precisão em uma leitura é de apenas **5 segundos**. Para mais informações do sensor, segue o link do datasheet: [Datasheet AO2](https://phukienthaythe.com/images/datasheet/ao2.pdf).
 
 **Imagem ilustrativa do sensor AO2:**
+
 ![ao2sensor](https://github.com/user-attachments/assets/651fff26-81da-4c29-9865-387f8618ec0d)
 
 ---
@@ -14,6 +15,8 @@ Por ser eletroquímico, o AO2 possui uma vida útil limitada a aproximadamente *
 Para aumentar a confiabilidade das leituras do AO2, ele foi acoplado a um conversor **ADS1115**, que se comunica com o Raspberry Pi via **I²C** utilizando o endereço **0x48**. O ADS1115 amplifica o sinal analógico gerado pelo AO2, que é muito baixo e instável, para um sinal mais alto e estável. Além disso, o conversor realiza a digitalização do sinal, facilitando a leitura pelo microcontrolador.
 
 **Imagem ilustrativa do conversor ADS1115:**
+
+![ADS1115](https://github.com/user-attachments/assets/ba2beabf-5dd5-4631-9de3-076fa87b00e7)
 
 No código, o ADS1115 é configurado para operar com o ganho máximo de **16x**, o que permite trabalhar em uma faixa de tensão de **0,256V**. Essa configuração é ideal para amplificar a tensão interna do AO2, que é de apenas **10mV**.
 
