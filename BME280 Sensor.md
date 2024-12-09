@@ -10,7 +10,8 @@ Ele se comunica com o Raspberry Pi via I²C, utilizando o endereço 0x76. Este s
 
 **Imagem ilustrativa do sensor BME280:** 
 
-![BME280](https://github.com/user-attachments/assets/013f1efe-3042-4a27-bda5-91b279b03e42)
+![bme280](https://github.com/user-attachments/assets/8659d61b-ad94-4567-bb5c-6dbccf01b21f)
+
 
 Para mais informações técnicas, consulte o [datasheet do BME280](https://www.mouser.com/datasheet/2/783/BST-BME280-DS002-1509607.pdf?srsltid=AfmBOop-gdYKkXnbAD9bpCml_pHpVhmNiTOP9BESw5skehoDlsiTTI81).
 
