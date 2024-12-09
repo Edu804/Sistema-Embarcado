@@ -5,6 +5,7 @@ O sensor de oxigênio **Citicel AO2** é um exemplo de sensor eletroquímico amp
 Por ser eletroquímico, o AO2 possui uma vida útil limitada a aproximadamente **2 anos** em condições normais de ar fresco. Seu tempo de resposta para atingir até 90% de precisão em uma leitura é de apenas **5 segundos**. Para mais informações do sensor, segue o link do datasheet: [Datasheet AO2](https://phukienthaythe.com/images/datasheet/ao2.pdf).
 
 **Imagem ilustrativa do sensor AO2:**
+![ao2sensor](https://github.com/user-attachments/assets/651fff26-81da-4c29-9865-387f8618ec0d)
 
 ---
 
