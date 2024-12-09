@@ -28,7 +28,7 @@ Criar um sistema que:
   - **DWIN HDW070_008LZ02** (Display touch - comunicação USB serial)
 
 **Esquema do hardware de sensores**  
-![Hardware Sensores](eletrica-sensores.png)  
+![Hardware dos Sensores](https://github.com/user-attachments/assets/1c893533-5b0e-4878-96ec-fe9573768507)
 Os sensores comunicam-se diretamente com o Raspberry Pi. O ISO1540 garante a segurança isolando o sistema de surtos elétricos.  
 
 ---
@@ -42,7 +42,7 @@ Os sensores comunicam-se diretamente com o Raspberry Pi. O ISO1540 garante a seg
   - **Bomba de ar a vácuo 5V**
 
 **Esquema elétrico dos atuadores**  
-![Sistema Elétrico](diagrama-eletrico.png)  
+![Sistema Elétrico](https://github.com/user-attachments/assets/185ea473-0847-44f3-9b5b-1522a99d31e8)
 O Raspberry Pi envia comandos ao PCF8574 para definir os pinos de controle (0 ou 1), que acionam os relés responsáveis pelos atuadores, ativando ou desativando as eletroválvulas e a bomba de ar.
 
 ---
@@ -61,7 +61,7 @@ O Raspberry Pi envia comandos ao PCF8574 para definir os pinos de controle (0 ou
   - **Alívio**: Entrada/saída para alívio da pressão, admitindo oxigênio ou liberando excesso de nitrogênio.
 
 **Diagrama da bancada de testes**  
-![Bancada de Testes](diagrama-controle.png)
+![Bancada de Testes](https://github.com/user-attachments/assets/62e59859-df30-46b5-98f7-e61c4e3deaf5)
 
 ---
 
@@ -75,6 +75,6 @@ Para facilitar o entendimento e implementação do projeto, consulte os arquivos
 - [BME280 Sensor](BME280%20Sensor.pdf): Guia para o sensor de pressão, umidade e temperatura BME280.
 
 ---
-![Diagrama-Controle](https://github.com/user-attachments/assets/62e59859-df30-46b5-98f7-e61c4e3deaf5)
-![eletrica-sensores](https://github.com/user-attachments/assets/1c893533-5b0e-4878-96ec-fe9573768507)
-![diagrama-eletrico](https://github.com/user-attachments/assets/185ea473-0847-44f3-9b5b-1522a99d31e8)
+
+
+
