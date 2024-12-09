@@ -16,7 +16,7 @@ Para aumentar a confiabilidade das leituras do AO2, ele foi acoplado a um conver
 
 **Imagem ilustrativa do conversor ADS1115:**
 
-<img src="https://github.com/user-attachments/assets/ba2beabf-5dd5-4631-9de3-076fa87b00e7" width="400" height="500" />
+<img src="https://github.com/user-attachments/assets/ba2beabf-5dd5-4631-9de3-076fa87b00e7" width="400" height="450" />
 
 
 No código, o ADS1115 é configurado para operar com o ganho máximo de **16x**, o que permite trabalhar em uma faixa de tensão de **0,256V**. Essa configuração é ideal para amplificar a tensão interna do AO2, que é de apenas **10mV**.
