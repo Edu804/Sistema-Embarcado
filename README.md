@@ -69,10 +69,10 @@ O Raspberry Pi envia comandos ao PCF8574 para definir os pinos de controle (0 ou
 
 Para facilitar o entendimento e implementação do projeto, consulte os arquivos do repositório:
 
-- [Instalação Raspberry Pi](Instalação%20Raspberry%20Pi.pdf): Guia inicial para configuração do Raspberry Pi.
-- [AO2 Sensor](AO2%20Sensor.pdf): Guia para o sensor de oxigênio AO2.
-- [K33 Sensor](K33%20Sensor.pdf): Guia para o sensor de CO₂ K33.
-- [BME280 Sensor](BME280%20Sensor.pdf): Guia para o sensor de pressão, umidade e temperatura BME280.
+- [Instalação Raspberry Pi](Instalação%20Raspberry%20Pi.md): Guia inicial para configuração do Raspberry Pi.
+- [AO2 Sensor](AO2%20Sensor.md): Guia para o sensor de oxigênio AO2.
+- [K33 Sensor](K33%20Sensor.md): Guia para o sensor de CO₂ K33.
+- [BME280 Sensor](BME280%20Sensor.md): Guia para o sensor de pressão, umidade e temperatura BME280.
 - [PCF8574](PCF8574.md): Guia para o Expansor de portas I²C PCF8574.
 - [Ubiquos - Repositório no GitHub](https://github.com/OtavioMoratelli/Ubiquos): Guia de como utilizar o Grafana.
 
